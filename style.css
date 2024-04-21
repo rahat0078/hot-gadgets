@@ -1,0 +1,158 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* css for MenuBar */
+
+.menu-header{
+    margin-top: 40px;
+    margin-left: 10%;
+    display: flex;
+}
+ul{
+    display: flex;
+    padding: 10px 0px 0px 600px;
+}
+.logo{
+    cursor: pointer;
+}
+li{
+    margin-left: 60px;
+    list-style: none;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: dimgray;
+}
+
+/* css for First Section */
+
+
+.TopSection{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    color: dimgray;
+}
+h2{
+    font-size: 30px;
+}
+.BuyNow{
+    background-color: black;
+    color: white;
+    font-weight: 700px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.best-product{
+    width: 40%;
+    float: left;
+}
+.mackbook {
+    padding-top: 200px;
+    margin-left: 10%;
+}
+.best-product img{
+    width: 100%;
+    padding-left: 60px;
+}
+.bg-2{
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+/* Css for smartphone section */
+.smartphone{
+    margin-left: 10%;
+    display: flex;
+}
+.see-all{
+    margin-top: 35px;
+    margin-left: 1350px;
+    color: orange;
+    font-weight: bold;
+}
+.smartphone-img{
+    text-align: center;
+    margin-right: 70px;
+    box-shadow: 7px 7px 30px
+     grey;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+.sections-padding{
+    padding-top: 100px;
+}
+/* css for categories section */
+.categories{
+    padding-top: 150px;
+    height: 1000px;
+}
+.text{
+    text-align: center;
+    font-size: 35px;
+}
+.text-category{
+    border-bottom: 8px solid;
+    border-image: linear-gradient(45deg, rgb(255, 198, 92), rgb(214, 132, 9));
+    border-image-slice: 1;
+}
+/* start categpry image section */
+.Categories-img{
+    text-align: center;
+    display: flex;
+}
+.bag{
+    height: 180px;
+    margin-left: 279px;
+    margin-top: 300px;
+}
+.beauty{
+   margin-top: 100px;
+}
+#shadow {
+    text-align: center;
+    margin-right: 136px;
+    margin-bottom: 39px;
+    box-shadow: 7px 7px 30px
+     grey;
+    border-radius: 10px;
+    padding: 50px 80px;
+}
+.pale-order{
+    width: 700px;
+    padding-top: 160px;
+}
+.pale-order img{
+    width: 100%;
+}
+/* footer csss */
+footer{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 20px 0px;
+    text-align: center;
+}
+footer p{
+    font-size: 15px;
+    color: white;
+    padding: 15px 100px;
+}
+footer h3{
+    color: white;
+}
+footer:hover{
+    color: black;
+    background-color: dimgrey;
+    transition: 0.5s;
+}
